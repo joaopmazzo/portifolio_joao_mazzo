@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+  <header>
+    <nav class="nav-header grid">
+      <div>
+        <a href="#" class="nav-title text-color">João Paulo</a>
+      </div>
+      <div>
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link text-color">Home</a></li>
+          <li><a href="#about" class="nav-link text-color">About</a></li>
+          <li><a href="#skills" class="nav-link text-color">Skills</a></li>
+          <li><a href="#work" class="nav-link text-color">Work</a></li>
+          <li><a href="#contact" class="nav-link text-color">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home grid" id="home">
+      <div class="home-text">
+        <h1 class="home-title">Hi, <br> I'am <span>João</span><br> Web Developer</h1>
+        <a href="" class="button text-color">Contact</a>
+      </div>
+
+      <div class="home-social">
+        <div class="home-social-gap">
+          <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-mazzo-2ab6b21b7/" class="text-color home-social-icon"><i
+              class='bx bxl-linkedin'></i></a>
+          <a href="#" class="text-color home-social-icon"><i class='bx bxl-behance'></i></a>
+          <a href="https://github.com/joaopmazzo" class="text-color home-social-icon"><i class='bx bxl-github'></i></a>
+        </div>
+      </div>
+
+      <div class="home-img">
+        <img src="img/blob3.svg" alt="Foto do Criador" width="457px" height="449.3px">
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <h1 class="section-title">About</h1>
+
+      <div class="about-container grid">
+        <div class="about-container-img">
+          <img src="img/about2.jpg" alt="foto do Criador">
+        </div>
+
+        <div class="about-container-content">
+          <h2>I'm João Paulo Mazzo</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora,
+            assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias
+            accusamus atque.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <h1 class="section-title">Skills</h1>
+
+      <div class="skills-container grid">
+        <div class="skills-content">
+          <h2 class="skills-subtitle">Profesional Skills</h2>
+          <p class="skills-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto
+            consectetur error eum eaque sit.
+          </p>
+
+          <div class="skills-bar">
+            <div class="skill-data scroll-html">
+              <div class="skill-name">
+                <i class='bx bxl-html5'></i>
+                <p>HTML5</p>
+              </div>
+              <div class="skill-status skill-html"></div>
+            </div>
+            <div class="skill-data scroll-css">
+              <div class="skill-name">
+                <i class='bx bxl-css3'></i>
+                <p>CSS3</p>
+              </div>
+              <div class="skill-status skill-css"></div>
+            </div class="skill-name">
+            <div class="skill-data scroll-javascript">
+              <div class="skill-name">
+                <i class='bx bxl-javascript'></i>
+                <p>JAVASCRIPT</p>
+              </div>
+              <div class="skill-status skill-js"></div>
+            </div class="skill-name">
+            <div class="skill-data scroll-git">
+              <div class="skill-name">
+                <i class='bx bxl-git'></i>
+                <p>GIT</p>
+              </div>
+              <div class="skill-status skill-git"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-img">
+          <img src="img/work3.jpg" alt="Homem mexendo no notebook">
+        </div>
+      </div>
+    </section>
+
+    <section class="works section" id="work">
+      <h1 class="section-title">Work</h1>
+
+      <table class="works-table grid">
+        <tr>
+          <td class="scroll-work-1"><img src="img/work1.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+          <td class="scroll-work-2"><img src="img/work2.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+          <td class="scroll-work-3"><img src="img/work3.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+        </tr>
+        <tr>
+          <td class="scroll-work-4"><img src="img/work4.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+          <td class="scroll-work-5"><img src="img/work5.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+          <td class="scroll-work-6"><img src="img/work6.jpg" alt="foto de trabalhos" class="works-table-img"></td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="contact section" id="contact">
+      <h1 class="section-title">Contact</h1>
+
+      <div class="contact-container grid">
+        <form class="contact-forms">
+          <input type="text" id="forms_nome" placeholder="Name" class="forms-nome">
+          <input type="text" id="forms_nome" placeholder="Email" class="forms-email">
+          <textarea class="contact-textarea" name="message"></textarea>
+          <input type="button" value="Send" class="button">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h1>João Paulo Mazzo</h1>
+      <div class="footer-social">
+        <div>
+          <a href="#" class="footer-social-icon"><i class='bx bxl-facebook'></i></a>
+          <a href="#" class="footer-social-icon"><i class='bx bxl-instagram'></i></a>
+          <a href="#" class="footer-social-icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+      </div>
+      <p>&copy; 2021 copyright all right reserved</p>
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
